@@ -134,5 +134,5 @@ def static_proxy(path):
     # Send any other paths to the static folder
     return send_from_directory(app.static_folder, path)
 
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+#if __name__ == '__main__':
+#    app.run(debug=True, host='0.0.0.0', port=5000)
